@@ -1,0 +1,3 @@
+﻿  String10.cpp
+C:\Users\david\source\repos\String10\String10\String10.cpp(12,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  String10.vcxproj -> C:\Users\david\source\repos\String10\x64\Debug\String10.exe
