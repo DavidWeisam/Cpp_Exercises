@@ -1,0 +1,4 @@
+﻿  ArrayLast.cpp
+C:\Users\david\source\repos\Cpp_Exercises\Array\ArrayLast\ArrayLast\ArrayLast.cpp(7,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\david\source\repos\Cpp_Exercises\Array\ArrayLast\ArrayLast\ArrayLast.cpp(12,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  ArrayLast.vcxproj -> C:\Users\david\source\repos\Cpp_Exercises\Array\ArrayLast\x64\Debug\ArrayLast.exe

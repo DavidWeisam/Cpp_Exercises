@@ -1,0 +1,3 @@
+﻿  Array3.cpp
+C:\Users\david\source\repos\Cpp_Exercises\Array\Array3\Array3\Array3.cpp(23,21): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  Array3.vcxproj -> C:\Users\david\source\repos\Cpp_Exercises\Array\Array3\x64\Debug\Array3.exe
