@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Recursion\\RecursionLast\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1FD649E-FBFD-4777-A3A0-42E6AD2523EB}|RecursionLast\\RecursionLast.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Recursion\\RecursionLast\\RecursionLast\\RecursionLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F1FD649E-FBFD-4777-A3A0-42E6AD2523EB}|RecursionLast\\RecursionLast.vcxproj|solutionrelative:RecursionLast\\RecursionLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecursionLast.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Recursion\\RecursionLast\\RecursionLast\\RecursionLast.cpp",
+              "RelativeDocumentMoniker": "RecursionLast\\RecursionLast.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Recursion\\RecursionLast\\RecursionLast\\RecursionLast.cpp",
+              "RelativeToolTip": "RecursionLast\\RecursionLast.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T18:12:42.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

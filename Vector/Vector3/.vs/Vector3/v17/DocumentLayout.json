@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Vector\\Vector3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFF455E-730A-4A0E-AF55-C20ECA22A4A2}|Vector3\\Vector3.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Vector\\Vector3\\Vector3\\Vector3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DFF455E-730A-4A0E-AF55-C20ECA22A4A2}|Vector3\\Vector3.vcxproj|solutionrelative:Vector3\\Vector3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vector3.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Vector\\Vector3\\Vector3\\Vector3.cpp",
+              "RelativeDocumentMoniker": "Vector3\\Vector3.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Vector\\Vector3\\Vector3\\Vector3.cpp",
+              "RelativeToolTip": "Vector3\\Vector3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T15:08:32.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿  Recursion10.cpp
+C:\Users\david\source\repos\Recursion10\Recursion10\Recursion10.cpp(18,1): warning C4715: 'FindGCD': not all control paths return a value
+  Recursion10.vcxproj -> C:\Users\david\source\repos\Recursion10\x64\Debug\Recursion10.exe

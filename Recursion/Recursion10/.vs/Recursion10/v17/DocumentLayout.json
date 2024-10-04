@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Recursion10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7262E37B-785C-4639-94F3-FE7ECD43B719}|Recursion10\\Recursion10.vcxproj|C:\\Users\\david\\source\\repos\\Recursion10\\Recursion10\\Recursion10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7262E37B-785C-4639-94F3-FE7ECD43B719}|Recursion10\\Recursion10.vcxproj|solutionrelative:Recursion10\\Recursion10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Recursion10.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Recursion10\\Recursion10\\Recursion10.cpp",
+              "RelativeDocumentMoniker": "Recursion10\\Recursion10.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Recursion10\\Recursion10\\Recursion10.cpp",
+              "RelativeToolTip": "Recursion10\\Recursion10.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T17:59:28.057Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

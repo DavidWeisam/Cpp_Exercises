@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Vector\\Vector1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C233AFF8-A32A-4389-BC18-40DBBFA7DED1}|Vector1\\Vector1.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Vector\\Vector1\\Vector1\\Vector1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C233AFF8-A32A-4389-BC18-40DBBFA7DED1}|Vector1\\Vector1.vcxproj|solutionrelative:Vector1\\Vector1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vector1.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Vector\\Vector1\\Vector1\\Vector1.cpp",
+              "RelativeDocumentMoniker": "Vector1\\Vector1.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Vector\\Vector1\\Vector1\\Vector1.cpp",
+              "RelativeToolTip": "Vector1\\Vector1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T15:01:07.312Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

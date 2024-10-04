@@ -1,0 +1,3 @@
+﻿  RecursionLast.cpp
+C:\Users\david\source\repos\Cpp_Exercises\Recursion\RecursionLast\RecursionLast\RecursionLast.cpp(32,1): warning C4715: 'sumOfPrimeNumbers': not all control paths return a value
+  RecursionLast.vcxproj -> C:\Users\david\source\repos\Cpp_Exercises\Recursion\RecursionLast\x64\Debug\RecursionLast.exe
