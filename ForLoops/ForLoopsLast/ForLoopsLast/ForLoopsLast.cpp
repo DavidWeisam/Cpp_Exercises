@@ -28,12 +28,8 @@ string swapDigit(string str) {
 
 }
 
+int func(string list) {
 
-
-
-int main(){
-    
-    string list = "1234";
     string new_list;
     int num;
     int conter = 0;
@@ -53,11 +49,19 @@ int main(){
             new_list = moveDigit(new_list);
             conter += 2;
         }
-        
+
     }
 
-    cout << conter;
+    return conter;
 
+}
+
+
+int main(){
+    
+    string list = "1234";
+    
+    cout << "Total number of the three-digit-number is:" << func(list);
 }
 
 

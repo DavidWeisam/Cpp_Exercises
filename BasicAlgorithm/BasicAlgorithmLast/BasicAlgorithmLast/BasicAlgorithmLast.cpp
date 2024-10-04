@@ -1,21 +1,27 @@
 #include <iostream>
 #include <vector>
+#include <list>
 
 using namespace std;
 
-int main(){
-	vector<int> list = { 12, 20, 351, 4449, 45, 22 };
-	vector<int> newList;
-	vector<int>::const_iterator num;
+list<int> func(list<int> inputList) {
+	list<int> newList;
+	list<int>::iterator iter;
 
-	int counter = 0;
-
-	for (num = list.begin(); num != list.end(); num++) {
-		newList.push_back((*num) % 10);
+	
+	for (iter = inputList.begin(); iter != inputList.end(); iter++) {
+		newList.push_back((*iter) % 10);
 	}
+	return newList;
+}
 
-	for (num = newList.begin(); num != newList.end(); num++) {
-		cout << *num << endl;
+int main(){
+	list<int> myList= { 12, 20, 351, 4449 };
+	
+	list<int> newList = func(myList);
+
+	for (int i : newList) {
+		cout << i << ", ";
 	}
 }
 

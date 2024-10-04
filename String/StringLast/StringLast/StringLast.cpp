@@ -13,25 +13,30 @@ void makeLower(string& str) {
 	}
 }
 
-int main() {
-	string input_string;
-	string new_string;
 
-	cout << "Enter a string: ";
-	cin >> input_string;
+string func(string inputString) {
+	string newString = inputString;
 
-	makeLower(input_string);
+	makeLower(inputString);
 
-	for (int i = 0; i < input_string.length(); i++) {
+	for (int i = 0; i < inputString.length(); i++) {
 
-		if ((i % 2 != 0) && isChar(input_string[i])) {
-			new_string += input_string[i] - 32;
+		if ((i % 2 != 0) && isChar(inputString[i])) {
+			newString[i] = inputString[i] - 32;
 			continue;
 		}
 
-		new_string += input_string[i];
+		newString[i] = inputString[i];
 	}
+	return newString;
+}
 
-	cout << new_string;
+
+int main() {
+	string str1 = "JavaScript";
+	string str2 = "Python";
+
+	cout << "Input: " << str1 << "\nOutput: " << func(str1) << endl;
+	cout << "Input: " << str2 << "\nOutput: " << func(str2) << endl;
 }
 

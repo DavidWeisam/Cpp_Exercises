@@ -11,20 +11,26 @@ int FindMax(int array[], int len) {
     return max;
 }
 
+int func(int array[], int len) {
+
+    int first_max = FindMax(array, len);
+
+    int* targetPtr = find(&array[0], array + len, first_max);
+
+    int targetIndex = targetPtr - array;
+
+    array[targetIndex] = 0;
+
+    return FindMax(array, len);
+
+
+}
+
+
 int main() {
     int myArray[] = { 10 ,20 ,94, 2, 42, 9 };
-
     int len = sizeof(myArray) / sizeof(myArray[0]);
 
-    int first_max = FindMax(myArray, len);
-    
-    int* targetPtr = find(&myArray[0], myArray + len, first_max);
-
-    int targetIndex = targetPtr - myArray;
-
-    myArray[targetIndex] = 0;
-
-    cout << FindMax(myArray, len);
-
+    cout << func(myArray, len);
 }
 

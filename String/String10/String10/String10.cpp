@@ -1,29 +1,27 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-	string input_string;
-	bool isPalindrome = true;
-
-
-	cout << "Enter a string: ";
-	cin >> input_string;
-
-	int len = input_string.length();
+bool func(string inputString) {
+	int len = inputString.length();
 	int half = len / 2;
 
 	for (int i = 0; i < half; i++) {
-		if (input_string[i] != input_string[len - i - 1]) {
-			isPalindrome = false;
-			break;
+		if (inputString[i] != inputString[len - i - 1]) {
+			return false;
 		}
 	}
+	return true;
+}
 
-	if (isPalindrome) {
-		cout << "True";
-	}
-	else {
-		cout << "False";
-	}
+
+
+int main() {
+	string str1 = "david";
+	string str2 = "madam";
+	string str3 = "duud";
+
+	cout << "Sample Input: " << str1 << "\nSmaple Output: " << func(str1) << endl; 
+	cout << "Sample Input: " << str2 << "\nSmaple Output: " << func(str2) << endl;
+	cout << "Sample Input: " << str3 << "\nSmaple Output: " << func(str3) << endl;
 }
 

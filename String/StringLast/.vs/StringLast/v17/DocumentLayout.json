@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\StringLast\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\String\\StringLast\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F11FC873-FF3F-45DA-AE11-0076DA120D90}|StringLast\\StringLast.vcxproj|C:\\Users\\david\\source\\repos\\StringLast\\StringLast\\StringLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F11FC873-FF3F-45DA-AE11-0076DA120D90}|StringLast\\StringLast.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\String\\StringLast\\StringLast\\StringLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F11FC873-FF3F-45DA-AE11-0076DA120D90}|StringLast\\StringLast.vcxproj|solutionrelative:StringLast\\StringLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StringLast.cpp",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\StringLast\\StringLast\\StringLast.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\String\\StringLast\\StringLast\\StringLast.cpp",
               "RelativeDocumentMoniker": "StringLast\\StringLast.cpp",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\StringLast\\StringLast\\StringLast.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\String\\StringLast\\StringLast\\StringLast.cpp",
               "RelativeToolTip": "StringLast\\StringLast.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-01T17:11:36.564Z",
               "EditorCaption": ""

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Date3\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Date\\Date3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{092AB06D-DAC7-4ED1-A6BB-805671333468}|Date3\\Date3.vcxproj|C:\\Users\\david\\source\\repos\\Date3\\Date3\\Date3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{092AB06D-DAC7-4ED1-A6BB-805671333468}|Date3\\Date3.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Date\\Date3\\Date3\\Date3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{092AB06D-DAC7-4ED1-A6BB-805671333468}|Date3\\Date3.vcxproj|solutionrelative:Date3\\Date3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Date3.cpp",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Date3\\Date3\\Date3.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Date\\Date3\\Date3\\Date3.cpp",
               "RelativeDocumentMoniker": "Date3\\Date3.cpp",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\Date3\\Date3\\Date3.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Date\\Date3\\Date3\\Date3.cpp",
               "RelativeToolTip": "Date3\\Date3.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-02T08:07:51.563Z",
               "EditorCaption": ""

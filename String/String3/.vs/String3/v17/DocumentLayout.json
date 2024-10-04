@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\String3\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\String\\String3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1619107C-696D-49BC-B88D-8C6A20BA7AAE}|String3\\String3.vcxproj|C:\\Users\\david\\source\\repos\\String3\\String3\\String3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1619107C-696D-49BC-B88D-8C6A20BA7AAE}|String3\\String3.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\String\\String3\\String3\\String3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1619107C-696D-49BC-B88D-8C6A20BA7AAE}|String3\\String3.vcxproj|solutionrelative:String3\\String3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "String3.cpp",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\String3\\String3\\String3.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\String\\String3\\String3\\String3.cpp",
               "RelativeDocumentMoniker": "String3\\String3.cpp",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\String3\\String3\\String3.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\String\\String3\\String3\\String3.cpp",
               "RelativeToolTip": "String3\\String3.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-01T17:07:12.551Z",
               "EditorCaption": ""

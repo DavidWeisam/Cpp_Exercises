@@ -3,29 +3,33 @@
 
 using namespace std;
 
-int main() {
-	string input_string;
-	string new_string;
+string func(string inputString) {
+	string newString = inputString;
+	bool isSpace = false;
 
-	bool is_space = false;
-
-	cout << "Enter a string: ";
-	getline(cin, input_string);
-
-	for (int i = 0; i < input_string.length(); i++) {
-		if (is_space || i == 0) {
-			new_string += input_string[i] - 32;
-			is_space = false;
+	for (int i = 0; i < inputString.length(); i++) {
+		if (isSpace || i == 0) {
+			newString[i] = inputString[i] - 32;
+			isSpace = false;
 			continue;
 		}
 
-		if (input_string[i] == ' ') {
-			is_space = true;
+		if (inputString[i] == ' ') {
+			isSpace = true;
 		}
 
-		new_string += input_string[i];
+		newString[i] = inputString[i];
 	}
 
-	cout << new_string;
+	return newString;
+}
+
+
+
+int main() {
+	string str1 = "cpp string exercises";
+	string str2 = "david the king";
+	cout << "Sample Input: " << str1 << "\nSample Output: " << func(str1) << endl;
+	cout << "Sample Input: " << str2 << "\nSample Output: " << func(str2) << endl;
 }
 

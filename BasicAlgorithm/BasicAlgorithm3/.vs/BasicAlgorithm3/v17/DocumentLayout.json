@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\BasicAlgorithm3\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\BasicAlgorithm\\BasicAlgorithm3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA3071C1-B544-476D-8934-3EAF64955B3D}|BasicAlgorithm3\\BasicAlgorithm3.vcxproj|C:\\Users\\david\\source\\repos\\BasicAlgorithm3\\BasicAlgorithm3\\BasicAlgorithm3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AA3071C1-B544-476D-8934-3EAF64955B3D}|BasicAlgorithm3\\BasicAlgorithm3.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\BasicAlgorithm\\BasicAlgorithm3\\BasicAlgorithm3\\BasicAlgorithm3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA3071C1-B544-476D-8934-3EAF64955B3D}|BasicAlgorithm3\\BasicAlgorithm3.vcxproj|solutionrelative:BasicAlgorithm3\\BasicAlgorithm3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BasicAlgorithm3.cpp",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BasicAlgorithm3\\BasicAlgorithm3\\BasicAlgorithm3.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\BasicAlgorithm\\BasicAlgorithm3\\BasicAlgorithm3\\BasicAlgorithm3.cpp",
               "RelativeDocumentMoniker": "BasicAlgorithm3\\BasicAlgorithm3.cpp",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BasicAlgorithm3\\BasicAlgorithm3\\BasicAlgorithm3.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\BasicAlgorithm\\BasicAlgorithm3\\BasicAlgorithm3\\BasicAlgorithm3.cpp",
               "RelativeToolTip": "BasicAlgorithm3\\BasicAlgorithm3.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-01T16:24:55.902Z",
               "EditorCaption": ""
