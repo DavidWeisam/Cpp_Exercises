@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\FileHandling\\FileHandlingLast\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4F9325-D34B-43C3-80CC-7648BA737231}|FileHandlingLast\\FileHandlingLast.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\FileHandling\\FileHandlingLast\\FileHandlingLast\\FileHandlingLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D4F9325-D34B-43C3-80CC-7648BA737231}|FileHandlingLast\\FileHandlingLast.vcxproj|solutionrelative:FileHandlingLast\\FileHandlingLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileHandlingLast.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\FileHandling\\FileHandlingLast\\FileHandlingLast\\FileHandlingLast.cpp",
+              "RelativeDocumentMoniker": "FileHandlingLast\\FileHandlingLast.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\FileHandling\\FileHandlingLast\\FileHandlingLast\\FileHandlingLast.cpp",
+              "RelativeToolTip": "FileHandlingLast\\FileHandlingLast.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-05T08:10:16.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
