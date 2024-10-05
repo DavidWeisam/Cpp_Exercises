@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Stack\\StackLast\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{022801D5-C850-462C-BCA8-65CA84F2596E}|StackLast\\StackLast.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Stack\\StackLast\\StackLast\\StackLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{022801D5-C850-462C-BCA8-65CA84F2596E}|StackLast\\StackLast.vcxproj|solutionrelative:StackLast\\StackLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StackLast.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Stack\\StackLast\\StackLast\\StackLast.cpp",
+              "RelativeDocumentMoniker": "StackLast\\StackLast.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Stack\\StackLast\\StackLast\\StackLast.cpp",
+              "RelativeToolTip": "StackLast\\StackLast.cpp",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-05T11:36:48.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

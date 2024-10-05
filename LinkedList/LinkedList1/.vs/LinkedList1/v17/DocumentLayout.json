@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\LinkedList1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B45AE9-3B68-499C-831D-5894502C385F}|LinkedList1\\LinkedList1.vcxproj|C:\\Users\\david\\source\\repos\\LinkedList1\\LinkedList1\\LinkedList1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4B45AE9-3B68-499C-831D-5894502C385F}|LinkedList1\\LinkedList1.vcxproj|solutionrelative:LinkedList1\\LinkedList1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedList1.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\LinkedList1\\LinkedList1\\LinkedList1.cpp",
+              "RelativeDocumentMoniker": "LinkedList1\\LinkedList1.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\LinkedList1\\LinkedList1\\LinkedList1.cpp",
+              "RelativeToolTip": "LinkedList1\\LinkedList1.cpp",
+              "ViewState": "AQIAACMAAAAAAAAAAAAowDMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-05T09:17:51.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
