@@ -1,0 +1,3 @@
+﻿  SortingAndSearchingLast.cpp
+C:\Users\david\source\repos\Cpp_Exercises\SotringAndSearching\SortingAndSearchingLast\SortingAndSearchingLast\SortingAndSearchingLast.cpp(7,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  SortingAndSearchingLast.vcxproj -> C:\Users\david\source\repos\Cpp_Exercises\SotringAndSearching\SortingAndSearchingLast\x64\Debug\SortingAndSearchingLast.exe

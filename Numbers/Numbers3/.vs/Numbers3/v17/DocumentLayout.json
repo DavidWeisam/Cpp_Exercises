@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Numbers\\Numbers3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{815B0A20-E17B-4A5B-815B-3D4FB0FF26EC}|Numbers3\\Numbers3.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Numbers\\Numbers3\\Numbers3\\Numbers3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{815B0A20-E17B-4A5B-815B-3D4FB0FF26EC}|Numbers3\\Numbers3.vcxproj|solutionrelative:Numbers3\\Numbers3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Numbers3.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Numbers\\Numbers3\\Numbers3\\Numbers3.cpp",
+              "RelativeDocumentMoniker": "Numbers3\\Numbers3.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\Numbers\\Numbers3\\Numbers3\\Numbers3.cpp",
+              "RelativeToolTip": "Numbers3\\Numbers3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-05T14:55:00.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

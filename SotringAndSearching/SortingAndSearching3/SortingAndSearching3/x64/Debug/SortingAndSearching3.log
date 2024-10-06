@@ -1,0 +1,7 @@
+﻿  SortingAndSearching3.cpp
+C:\Users\david\source\repos\Cpp_Exercises\SotringAndSearching\SortingAndSearching3\SortingAndSearching3\SortingAndSearching3.cpp(21,19): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\Users\david\source\repos\Cpp_Exercises\SotringAndSearching\SortingAndSearching3\SortingAndSearching3\SortingAndSearching3.cpp(21,19): warning C4244:         with
+C:\Users\david\source\repos\Cpp_Exercises\SotringAndSearching\SortingAndSearching3\SortingAndSearching3\SortingAndSearching3.cpp(21,19): warning C4244:         [
+C:\Users\david\source\repos\Cpp_Exercises\SotringAndSearching\SortingAndSearching3\SortingAndSearching3\SortingAndSearching3.cpp(21,19): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\Users\david\source\repos\Cpp_Exercises\SotringAndSearching\SortingAndSearching3\SortingAndSearching3\SortingAndSearching3.cpp(21,19): warning C4244:         ]
+  SortingAndSearching3.vcxproj -> C:\Users\david\source\repos\Cpp_Exercises\SotringAndSearching\SortingAndSearching3\x64\Debug\SortingAndSearching3.exe

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\SotringAndSearching\\SortingAndSearchingLast\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5136C23F-7412-4AAC-80B6-3D357EBB0FDE}|SortingAndSearchingLast\\SortingAndSearchingLast.vcxproj|C:\\Users\\david\\source\\repos\\Cpp_Exercises\\SotringAndSearching\\SortingAndSearchingLast\\SortingAndSearchingLast\\SortingAndSearchingLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5136C23F-7412-4AAC-80B6-3D357EBB0FDE}|SortingAndSearchingLast\\SortingAndSearchingLast.vcxproj|solutionrelative:SortingAndSearchingLast\\SortingAndSearchingLast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SortingAndSearchingLast.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\SotringAndSearching\\SortingAndSearchingLast\\SortingAndSearchingLast\\SortingAndSearchingLast.cpp",
+              "RelativeDocumentMoniker": "SortingAndSearchingLast\\SortingAndSearchingLast.cpp",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\Cpp_Exercises\\SotringAndSearching\\SortingAndSearchingLast\\SortingAndSearchingLast\\SortingAndSearchingLast.cpp",
+              "RelativeToolTip": "SortingAndSearchingLast\\SortingAndSearchingLast.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-06T18:02:57.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
