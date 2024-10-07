@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 
@@ -41,11 +42,20 @@ bool isSame(string str1, string str2) {
 void PrintAllNumber(string number) {
     string checker = "1";
 
+    ofstream MyFile("my_file.txt");
+
+    if (!MyFile.is_open()) {
+        cout << "Faild to open the file" << endl;
+    }
+
+
     while (!isSame(number, checker)) {
-        cout << checker << ", ";
+        MyFile << checker << " ";
         addOne(checker);
     }
-    cout << checker << endl;
+    MyFile << checker << endl;
+    
+    MyFile.close();
 }
 
 
