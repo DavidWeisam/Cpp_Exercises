@@ -1,3 +1,3 @@
 ﻿  InputNumber.cpp
-C:\Users\david\source\repos\InputNumber\InputNumber\InputNumber.cpp(5,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  InputNumber.vcxproj -> C:\Users\david\source\repos\InputNumber\x64\Debug\InputNumber.exe
+C:\Users\david\source\repos\Cpp_Exercises\More_Cpp_exercises\InputNumber\InputNumber\InputNumber.cpp(5,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  InputNumber.vcxproj -> C:\Users\david\source\repos\Cpp_Exercises\More_Cpp_exercises\InputNumber\x64\Debug\InputNumber.exe
