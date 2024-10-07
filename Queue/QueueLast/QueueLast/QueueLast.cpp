@@ -1,159 +1,138 @@
 #include <iostream>
-#define MAX_SIZE 100
+
 using namespace std;
 
+const int MAX_SIZE = 100;
 
-class MyQueue {
+class Queue {
+private:
+    int front;
+    int rear;
+    int arr[MAX_SIZE];
 
-    int array[MAX_SIZE];
-    int index;
 public:
-    MyQueue() :
-        index(-1)
-    {}
+    Queue() {
+        front = -1;
+        rear = -1;
+    }
 
-    void Enqueue(int value) {
-        if (IsFull()) {
-            cout << "The Queue is full" << endl;
+    bool isFull() {
+        return (rear == MAX_SIZE - 1);
+    }
+
+    bool isEmpty() {
+        return (front == -1 && rear == -1);
+    }
+
+    void enqueue(int x) {
+        if (isFull()) {
+            cout << "Error: Queue is full" << endl;
             return;
         }
-        index++;
-        array[index] = value;
+        if (isEmpty()) {
+            front = 0;
+            rear = 0;
+        }
+        else {
+            rear++;
+        }
+        arr[rear] = x;
     }
 
-    bool IsEmpty() {
-        return index == -1;
-    }
-
-    void Dequeue() {
-        if (IsEmpty()) {
-            cout << "The Queue is empty" << endl;
+    void dequeue() {
+        if (isEmpty()) {
+            cout << "Error: Queue is empty" << endl;
             return;
         }
-        for (int i = 0; i <= index - 1; i++) {
-            array[i] = array[i + 1];
+        if (front == rear) {
+            front = -1;
+            rear = -1;
         }
-        index--;
+        else {
+            front++;
+        }
     }
 
-    bool IsFull() {
-        return index == MAX_SIZE - 1;
+    int peek() {
+        if (isEmpty()) {
+            cout << "Error: Queue is empty" << endl;
+            return -1;
+        }
+        return arr[front];
     }
 
-    void ShowQueue() {
-        for (int i = 0; i <= index; i++) {
-            cout << array[i] << ", ";
+    void display() {
+        if (isEmpty()) {
+            cout << "Error: Queue is empty" << endl;
+            return;
+        }
+        cout << "Queue elements are: ";
+        for (int i = front; i <= rear; i++) {
+            cout << arr[i] << " ";
         }
         cout << endl;
     }
 
-    int GetFirstElement() {
-        if (IsEmpty()) {
-            cout << "The Queue is empty";
-            return -1;
-        }
-        return array[0];
-    }
+    Queue find_Union(Queue q1, Queue q2) {
+        Queue result; 
 
-    void SortQueue() {
-        if (IsEmpty()) {
-            cout << "The Queue is empty" << endl;
-            return;
+        
+        while (!q1.isEmpty()) {
+            result.enqueue(q1.peek());
+            q1.dequeue();
         }
 
-        for (int i = 0; i <= index; i++) {
-            for (int j = 0; j < index - i; j++) {
-                if (array[j] > array[j + 1]) {
+        
+        while (!q2.isEmpty()) {
+            int element = q2.peek();
+            q2.dequeue();
 
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+            bool found = false;
+
+        
+            for (int i = result.front; i <= result.rear; i++) {
+                if (result.arr[i] == element) {
+                    found = true;
+                    break;
                 }
             }
-        }
-    }
 
-    int GetMinimum() {
-        if (IsEmpty()) {
-            cout << "The Queue is empty" << endl;
-            return -1;
-        }
-
-        int min = array[0];
-
-        for (int i = 1; i <= index; i++) {
-            if (array[i] < min) {
-                min = array[i];
+        
+            if (!found) {
+                result.enqueue(element);
             }
         }
-        return min;
-    }
 
-    bool ExsistIn(int value) {
-        if (IsEmpty()) {
-            cout << "The Queue is empty" << endl;
-            return false;
-        }
-
-        for (int i = 0; i <= index; i++) {
-            if (array[i] == value) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    MyQueue FindUnion(MyQueue q1, MyQueue q2) {
-        MyQueue newQueue;
-
-        int num;
-
-        for (int i = 0; i <= q1.index; i++) {
-            num = q1.GetFirstElement();
-            newQueue.Enqueue(num);
-            q1.Dequeue();
-            q1.Enqueue(num);
-        }
-
-        for (int i = 0; i <= q2.index; i++) {
-            num = q2.GetFirstElement();
-            if (!q1.ExsistIn(num)) {
-                newQueue.Enqueue(num);
-            }
-            q2.Dequeue();
-            q2.Enqueue(num);
-        }
-
-        return newQueue;
+        return result; 
     }
 };
 
-
-
-
 int main() {
-    MyQueue q1;
-    MyQueue q2;
-    MyQueue q3;
-
-    q1.Enqueue(1);
-    q1.Enqueue(2);
-    q1.Enqueue(3);
-    q1.Enqueue(4);
-
-    q2.Enqueue(4);
-    q2.Enqueue(3);
-    q2.Enqueue(7);
-    q2.Enqueue(8);
-
-    q1.ShowQueue();
-    q2.ShowQueue();
-
-    q3 = q1.FindUnion(q1, q2);
-
-    q3.ShowQueue();
-    q1.ShowQueue();
-    q2.ShowQueue();
+    cout << "Initialize three Queues." << endl;
+    Queue q1, q2, q3; 
+    q1.enqueue(1);
+    q1.enqueue(2);
+    q1.enqueue(3);
+    q2.enqueue(1);
+    q2.enqueue(2);
+    q2.enqueue(4);
+    q3.enqueue(3);
+    q3.enqueue(2);
+    q3.enqueue(1);
+    cout << "Queue-1" << endl;
+    q1.display(); 
+    cout << "Queue-2" << endl;
+    q2.display(); 
+    cout << "Queue-3" << endl;
+    q3.display(); 
+    cout << "\nUnion of two queues q1 and q2:" << endl;
+    Queue result = q1.find_Union(q1, q2); 
+    result.display(); 
+    cout << "\nUnion of two queues q2 and q3:" << endl;
+    Queue result1 = q1.find_Union(q2, q3);
+    result1.display(); 
+    cout << "\nUnion of two queues q3 and q1:" << endl;
+    Queue result2 = q1.find_Union(q3, q1); 
+    result2.display(); 
     return 0;
 }
-

@@ -1,86 +1,123 @@
 #include <iostream>
-#define MAX_SIZE 5
+
 using namespace std;
 
+const int MAX_SIZE = 100;
 
-class MyQueue {
+class Queue {
+private:
+    int front;
+    int rear;
+    int arr[MAX_SIZE];
 
-    int array[MAX_SIZE];
-    int index;
 public:
-    MyQueue() :
-        index(-1)
-    {}
+    Queue() {
+        front = -1;
+        rear = -1;
+    }
 
-    void Enqueue(int value) {
-        if (IsFull()) {
-            cout << "The Queue is full" << endl;
+    bool isFull() {
+        return (rear == MAX_SIZE - 1);
+    }
+
+    bool isEmpty() {
+        return (front == -1 && rear == -1);
+    }
+
+    void enqueue(int x) {
+        if (isFull()) {
+            cout << "Error: Queue is full" << endl;
             return;
         }
-        index++;
-        array[index] = value;
+        if (isEmpty()) {
+            front = 0;
+            rear = 0;
+        }
+        else {
+            rear++;
+        }
+        arr[rear] = x;
     }
 
-    bool IsEmpty() {
-        return index == -1;
-    }
-
-    void Dequeue() {
-        if (IsEmpty()) {
-            cout << "The Queue is empty" << endl;
+    void dequeue() {
+        if (isEmpty()) {
+            cout << "Error: Queue is empty" << endl;
             return;
         }
-        for (int i = 0; i <= index - 1; i++) {
-            array[i] = array[i + 1];
+        if (front == rear) {
+            front = -1;
+            rear = -1;
         }
-        index--;
+        else {
+            front++;
+        }
     }
 
-    bool IsFull() {
-        return index == MAX_SIZE - 1;
+    int peek() {
+        if (isEmpty()) {
+            cout << "Error: Queue is empty" << endl;
+            return -1;
+        }
+        return arr[front];
     }
-    void ShowQueue() {
-        for (int i = 0; i <= index; i++) {
-            cout << array[i] << ", ";
+
+    void display() {
+        if (isEmpty()) {
+            cout << "Error: Queue is empty" << endl;
+            return;
+        }
+        cout << "Queue elements are: ";
+        for (int i = front; i <= rear; i++) {
+            cout << arr[i] << " ";
         }
         cout << endl;
     }
 
-    void SortQueue() {
-        if (IsEmpty()) {
-            cout << "The Queue is empty" << endl;
+    void sortQueue(Queue& q) {
+        if (q.isEmpty()) {
+            cout << "Error: Queue is empty" << endl;
             return;
         }
-
-        for (int i = 0; i <= index; i++) {
-            for (int j = 0; j < index - i; j++) {
-                if (array[j] > array[j + 1]) {
-        
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+        int n = q.rear - q.front + 1; 
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
+            int minValue = q.arr[q.front + i];
+            
+            for (int j = i + 1; j < n; j++) {
+                if (q.arr[q.front + j] < minValue) {
+                    minIndex = j;
+                    minValue = q.arr[q.front + j];
                 }
             }
+            
+            for (int j = minIndex; j > i; j--) {
+                q.arr[q.front + j] = q.arr[q.front + j - 1];
+            }
+            q.arr[q.front + i] = minValue; 
         }
     }
 };
 
-
-
-
 int main() {
-    MyQueue que;
-    cout << que.IsEmpty() << endl;
-
-    que.Enqueue(7);
-    que.Enqueue(5);
-    que.Enqueue(2);
-    que.Enqueue(4);
-    que.Enqueue(1);
-
-    que.ShowQueue();
-    que.SortQueue();
-    que.ShowQueue();
+    cout << "Initialize a Queue." << endl;
+    Queue q;
+    cout << "\nInsert some elements into the queue:" << endl;
+    q.enqueue(1);
+    q.enqueue(5);
+    q.enqueue(3);
+    q.enqueue(6);
+    q.enqueue(2);
+    q.enqueue(0);
+    q.display();
+    q.sortQueue(q);
+    cout << "\nSort the above Queue elements:\n";
+    q.display();
+    cout << "\nInput two more elements into the queue:" << endl;
+    q.enqueue(-1);
+    q.enqueue(4);
+    q.display();
+    q.sortQueue(q);
+    cout << "\nSort the above Queue elements:\n";
+    q.display();
     return 0;
 }
-

@@ -1,34 +1,40 @@
 #include <iostream>
 using namespace std;
 
+int count_DigitOne(int num) {
+    int m = 0, k = 0, result = 0, base = 1; 
 
-int CountOnesIn(int num) {
-    int counter = 0;
-    while (num != 0) {
-        if (num % 10 == 1) {
-            counter++;
-        }
+    
+    while (num > 0) {
+        k = num % 10; 
         num = num / 10;
+
+        if (k > 1) {
+            result += (num + 1) * base;
+        }
+        else if (k < 1) {
+            result += num * base;
+        }
+        else {
+            result += num * base + m + 1;
+        }
+
+        m += k * base; 
+        base *= 10; 
     }
-    return counter;
+    return result; 
 }
 
-int CountTotalOfOne(int num) {
-    int counter = 0;
+int main(void) {
+    
+    int n = 6;
+    cout << "\nTotal number of digit 1 appearing in " << n << " (less than or equal) is " << count_DigitOne(n) << endl;
 
-    for (int i = 1; i <= num; i++) {
-        counter += CountOnesIn(i);
-    }
-    return counter;
-}
+    n = 15;
+    cout << "\nTotal number of digit 1 appearing in " << n << " (less than or equal) is " << count_DigitOne(n) << endl;
 
+    n = 100;
+    cout << "\nTotal number of digit 1 appearing in " << n << " (less than or equal) is " << count_DigitOne(n) << endl;
 
-int main() {
-    int num1 = 12;
-    int num2 = 20;
-
-    cout << CountTotalOfOne(num1) << endl;
-    cout << CountTotalOfOne(num2) << endl;
-
-    return 0;
+    return 0; 
 }

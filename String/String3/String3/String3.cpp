@@ -1,35 +1,28 @@
-#include <iostream>
-#include <string>
+#include <iostream> 
+#include <string>   
 
 using namespace std;
 
-string func(string inputString) {
-	string newString = inputString;
-	bool isSpace = false;
 
-	for (int i = 0; i < inputString.length(); i++) {
-		if (isSpace || i == 0) {
-			newString[i] = inputString[i] - 32;
-			isSpace = false;
-			continue;
-		}
+string Capitalize_first_letter(string text) {
 
-		if (inputString[i] == ' ') {
-			isSpace = true;
-		}
 
-		newString[i] = inputString[i];
-	}
+    for (int x = 0; x < text.length(); x++) {
 
-	return newString;
+        if (x == 0 || text[x - 1] == ' ') {
+            text[x] = toupper(text[x]); 
+        }
+    }
+
+    return text; 
 }
-
-
 
 int main() {
-	string str1 = "cpp string exercises";
-	string str2 = "david the king";
-	cout << "Sample Input: " << str1 << "\nSample Output: " << func(str1) << endl;
-	cout << "Sample Input: " << str2 << "\nSample Output: " << func(str2) << endl;
-}
+    
+    cout << Capitalize_first_letter("Write a C++ program");
 
+    
+    cout << "\n" << Capitalize_first_letter("cpp string exercises");
+
+    return 0; 
+}

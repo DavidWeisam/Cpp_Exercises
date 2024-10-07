@@ -1,41 +1,37 @@
+#include <math.h>
 #include <iostream>
-#include <cmath>
+#include <iomanip>
 using namespace std;
 
+bool isPrime(unsigned u) {
+    if (u < 4) return u > 1; 
+    if (!(u % 3)) return false; 
 
-bool isPrime(int num) {
-    double root = sqrt(num);
-    int devisor = 2;
-
-    while (devisor <= root) {
-        if (num % devisor == 0) {
-            return false;
-        }
-        devisor++;
+    
+    unsigned q = static_cast<unsigned>(sqrt(static_cast<long double>(u)));
+    unsigned c = 5; 
+    while (c <= q) {
+        
+        if (!(u % c) || !(u % (c + 2))) return false;
+        c += 6; 
     }
-    return true;
+    return true; 
 }
-
-
-
 
 int main() {
+    unsigned mx = 200; 
+    unsigned wid = static_cast<unsigned>(log10(static_cast<long double>(mx))) + 1; 
 
-    int num = 200;
-    int counter = 0;
-    if (num > 2) {
-        cout << 2 << ", ";
-        counter = 1;
-    }
-
-    for (int i = 3; i <= num; i += 2) {
-        if (isPrime(i)) {
-            cout << i << ", ";
-            counter++;
+    cout << "Prime numbers up to " << mx << ":\n";
+    cout << "[" << setw(wid) << 2 << " "; 
+    unsigned u = 3, p = 1; 
+    while (u <= mx) {
+        if (isPrime(u)) { 
+            cout << setw(wid) << u << " "; 
+            p++; 
         }
+        u += 2; 
     }
-    cout << "\n" << counter << endl;
-
+    cout << "]\n\n Found " << p << " primes.\n\n"; 
     return 0;
 }
-
